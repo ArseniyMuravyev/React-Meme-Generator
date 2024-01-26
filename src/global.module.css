@@ -1,0 +1,13 @@
+.input {
+	@apply w-[222px] rounded-[5px] border-[1px] border-[#D5D4D8] px-[10px] py-[7px] indent-[5px];
+}
+
+.shadow {
+	text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+		-2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+		2px 2px 5px #000;
+}
+
+.meme_text {
+	@apply absolute w-4/5 text-center left-1/2 translate-x-[-50%] my-[15px] px-[5px] font-[impact] text-[2em] uppercase text-white tracking-[1px];
+}
